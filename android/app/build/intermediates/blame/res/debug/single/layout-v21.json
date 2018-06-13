@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/var/www/html/my-first-app/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/var/www/html/my-first-app/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/var/www/html/my-first-app/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/var/www/html/my-first-app/android/app/build/intermediates/res/merged/debug/layout-v21/bottom_navigation_small_item.xml",
+        "source": "/var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/res/layout-v21/bottom_navigation_small_item.xml"
+    },
+    {
+        "merged": "/var/www/html/my-first-app/android/app/build/intermediates/res/merged/debug/layout-v21/bottom_navigation_item.xml",
+        "source": "/var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/res/layout-v21/bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/var/www/html/my-first-app/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
