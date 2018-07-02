@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/var/www/html/Places-App/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/var/www/html/Places-App/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/var/www/html/my-first-app/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/var/www/html/my-first-app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }

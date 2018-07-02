@@ -1,146 +1,343 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-vector-icons] /var/www/html/Places-App/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.55.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/6f070753788f031626d4c86f625f45a0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/90c9b859f18f1b0959fc3bdb15f8bb8e/AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/bangadam/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/0878c9c90bca0eba37682b49ba552bab/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/ff0391d8b3bd6f94c513c5f1d9b943fe/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/513a0a60af2905728c20213792e27c67/AndroidManifest.xml:17:1-31:12
+MERGED from [:react-native-maps] /var/www/html/Places-App/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/8ee786d816ac4f54aac72c688f853ec7/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/aae41db896c87586ebe1579bd86caf88/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/70186f05d9d82178a8e68a16fa1f5d8c/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:transition:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/4d42f609e358da192c2e0d0fba8c3629/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9dc1c28404b6d13cf6849df1c8dacf84/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/620b67037bf2654a3fdc72de1ac5e868/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/7e8abf910fd6987e89e53966928ae067/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/6e6d5230fec597218151219d206562f3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/46816f4ebe2aa6b5214e305744a13509/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/21dffea0317f15ed34b556bf4b045276/AndroidManifest.xml:1:1-3:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/0d787a1809381790546531519303e86b/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/0fbb851119f069967c5973da80c9e715/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/37056f252ab403287072175d2abc956f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/644d4688c4b082c73a2282b1b5f88a4a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/9f2494663e1f3d710dc7d01db1735c7b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/9a58d77abe6f3333518baf4c1e3b730c/AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/7b5663ac5d989856015061cbb3e73f42/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2a94b08a7590395b1b921c0f018fb9e0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/acfce2903ea027266a5ed44423fb93a5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/85a9458e8b6561b8b005cf95a49d3b30/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/a2f38ff6d297183980ea994b818f5223/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b0bf6acebcef831526eca4e0619a7913/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/0abb3ff720071a479ee0ac210dac5753/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/ee1586a848949b6d25b0be6cc5c8bbe0/AndroidManifest.xml:17:1-31:12
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12
 	package
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:2:5-29
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:2:5-29
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:1:11-69
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] /var/www/html/Places-App/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /var/www/html/Places-App/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:11:5-78
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/6f070753788f031626d4c86f625f45a0/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/6f070753788f031626d4c86f625f45a0/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:9:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:10:22-78
 application
-ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [myfirstapp:react-native-navigation:unspecified] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-navigation/unspecified/AndroidManifest.xml:11:5-18:19
-MERGED from [com.facebook.react:react-native:0.55.4] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:design:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:26:5-20
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/AndroidManifest.xml:12:5-20
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:12:5-32:19
+MERGED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.55.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/6f070753788f031626d4c86f625f45a0/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/6f070753788f031626d4c86f625f45a0/AndroidManifest.xml:13:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/90c9b859f18f1b0959fc3bdb15f8bb8e/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/90c9b859f18f1b0959fc3bdb15f8bb8e/AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/bangadam/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/0878c9c90bca0eba37682b49ba552bab/AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/bangadam/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/0878c9c90bca0eba37682b49ba552bab/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/ff0391d8b3bd6f94c513c5f1d9b943fe/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/ff0391d8b3bd6f94c513c5f1d9b943fe/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/513a0a60af2905728c20213792e27c67/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/513a0a60af2905728c20213792e27c67/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/8ee786d816ac4f54aac72c688f853ec7/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/8ee786d816ac4f54aac72c688f853ec7/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/aae41db896c87586ebe1579bd86caf88/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/aae41db896c87586ebe1579bd86caf88/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/70186f05d9d82178a8e68a16fa1f5d8c/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/70186f05d9d82178a8e68a16fa1f5d8c/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:transition:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/4d42f609e358da192c2e0d0fba8c3629/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/4d42f609e358da192c2e0d0fba8c3629/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9dc1c28404b6d13cf6849df1c8dacf84/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9dc1c28404b6d13cf6849df1c8dacf84/AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/46816f4ebe2aa6b5214e305744a13509/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/46816f4ebe2aa6b5214e305744a13509/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/21dffea0317f15ed34b556bf4b045276/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/21dffea0317f15ed34b556bf4b045276/AndroidManifest.xml:2:3-17
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/0d787a1809381790546531519303e86b/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/0d787a1809381790546531519303e86b/AndroidManifest.xml:7:5-11:19
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/7b5663ac5d989856015061cbb3e73f42/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/7b5663ac5d989856015061cbb3e73f42/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2a94b08a7590395b1b921c0f018fb9e0/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2a94b08a7590395b1b921c0f018fb9e0/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/acfce2903ea027266a5ed44423fb93a5/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/acfce2903ea027266a5ed44423fb93a5/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/85a9458e8b6561b8b005cf95a49d3b30/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/85a9458e8b6561b8b005cf95a49d3b30/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/a2f38ff6d297183980ea994b818f5223/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/a2f38ff6d297183980ea994b818f5223/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b0bf6acebcef831526eca4e0619a7913/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b0bf6acebcef831526eca4e0619a7913/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/0abb3ff720071a479ee0ac210dac5753/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/0abb3ff720071a479ee0ac210dac5753/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/ee1586a848949b6d25b0be6cc5c8bbe0/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/ee1586a848949b6d25b0be6cc5c8bbe0/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:9:7-39
-	android:allowBackup
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:14:7-39
 	android:icon
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:15:7-41
+	android:allowBackup
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:16:7-34
 	android:theme
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:17:7-38
 	android:name
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:13:7-38
 activity#com.myfirstapp.MainActivity
-ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:18:7-27:18
 	android:label
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:20:9-41
 	android:windowSoftInputMode
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:22:9-51
 	android:configChanges
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:21:9-79
 	android:name
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:19:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:23:9-26:25
 action#android.intent.action.MAIN
-ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:24:13-65
 	android:name
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:24:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:25:13-73
 	android:name
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:25:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:23:7-84
-MERGED from [myfirstapp:react-native-navigation:unspecified] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-navigation/unspecified/AndroidManifest.xml:15:9-17:40
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:28:7-84
+MERGED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from [myfirstapp:react-native-navigation:unspecified] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-navigation/unspecified/AndroidManifest.xml:17:13-37
+		ADDED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:23:17-81
-uses-sdk
-INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [myfirstapp:react-native-vector-icons:unspecified] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-vector-icons/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [myfirstapp:react-native-navigation:unspecified] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-navigation/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
-MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:20:5-44
-MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/AndroidManifest.xml:8:5-10:41
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:23:9-59
-	android:targetSdkVersion
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml
-activity#com.reactnativenavigation.controllers.NavigationActivity
-ADDED from [myfirstapp:react-native-navigation:unspecified] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-navigation/unspecified/AndroidManifest.xml:12:9-14:86
-	android:configChanges
-		ADDED from [myfirstapp:react-native-navigation:unspecified] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-navigation/unspecified/AndroidManifest.xml:14:13-83
-	android:name
-		ADDED from [myfirstapp:react-native-navigation:unspecified] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/myfirstapp/react-native-navigation/unspecified/AndroidManifest.xml:13:13-84
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /var/www/html/my-first-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:28:17-81
+meta-data#com.google.android.geo.API_KEY
+ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:29:7-31:66
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:27:9-31
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:31:9-64
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:26:9-47
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:30:9-54
+uses-sdk
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /var/www/html/Places-App/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /var/www/html/Places-App/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/6f070753788f031626d4c86f625f45a0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/6f070753788f031626d4c86f625f45a0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/90c9b859f18f1b0959fc3bdb15f8bb8e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/90c9b859f18f1b0959fc3bdb15f8bb8e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/bangadam/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/0878c9c90bca0eba37682b49ba552bab/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /home/bangadam/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/0878c9c90bca0eba37682b49ba552bab/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/ff0391d8b3bd6f94c513c5f1d9b943fe/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/ff0391d8b3bd6f94c513c5f1d9b943fe/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/513a0a60af2905728c20213792e27c67/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/513a0a60af2905728c20213792e27c67/AndroidManifest.xml:21:5-23:78
+MERGED from [:react-native-maps] /var/www/html/Places-App/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /var/www/html/Places-App/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/8ee786d816ac4f54aac72c688f853ec7/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/8ee786d816ac4f54aac72c688f853ec7/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/aae41db896c87586ebe1579bd86caf88/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/aae41db896c87586ebe1579bd86caf88/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/70186f05d9d82178a8e68a16fa1f5d8c/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/70186f05d9d82178a8e68a16fa1f5d8c/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:transition:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/4d42f609e358da192c2e0d0fba8c3629/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/4d42f609e358da192c2e0d0fba8c3629/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9dc1c28404b6d13cf6849df1c8dacf84/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9dc1c28404b6d13cf6849df1c8dacf84/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/620b67037bf2654a3fdc72de1ac5e868/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/620b67037bf2654a3fdc72de1ac5e868/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/7e8abf910fd6987e89e53966928ae067/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/7e8abf910fd6987e89e53966928ae067/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/6e6d5230fec597218151219d206562f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/6e6d5230fec597218151219d206562f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/46816f4ebe2aa6b5214e305744a13509/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/46816f4ebe2aa6b5214e305744a13509/AndroidManifest.xml:2:3-70
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/0d787a1809381790546531519303e86b/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/0d787a1809381790546531519303e86b/AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/0fbb851119f069967c5973da80c9e715/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/0fbb851119f069967c5973da80c9e715/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/37056f252ab403287072175d2abc956f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/37056f252ab403287072175d2abc956f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/644d4688c4b082c73a2282b1b5f88a4a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/644d4688c4b082c73a2282b1b5f88a4a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/9f2494663e1f3d710dc7d01db1735c7b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /home/bangadam/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/9f2494663e1f3d710dc7d01db1735c7b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/9a58d77abe6f3333518baf4c1e3b730c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/9a58d77abe6f3333518baf4c1e3b730c/AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/7b5663ac5d989856015061cbb3e73f42/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /home/bangadam/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/7b5663ac5d989856015061cbb3e73f42/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2a94b08a7590395b1b921c0f018fb9e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2a94b08a7590395b1b921c0f018fb9e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/acfce2903ea027266a5ed44423fb93a5/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/acfce2903ea027266a5ed44423fb93a5/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/85a9458e8b6561b8b005cf95a49d3b30/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/85a9458e8b6561b8b005cf95a49d3b30/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/a2f38ff6d297183980ea994b818f5223/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/a2f38ff6d297183980ea994b818f5223/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b0bf6acebcef831526eca4e0619a7913/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b0bf6acebcef831526eca4e0619a7913/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/0abb3ff720071a479ee0ac210dac5753/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/0abb3ff720071a479ee0ac210dac5753/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/ee1586a848949b6d25b0be6cc5c8bbe0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/ee1586a848949b6d25b0be6cc5c8bbe0/AndroidManifest.xml:21:5-23:58
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/ff0391d8b3bd6f94c513c5f1d9b943fe/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml
+activity#com.reactnativenavigation.controllers.NavigationActivity
+ADDED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
+	android:configChanges
+		ADDED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [:react-native-navigation] /var/www/html/Places-App/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-84
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /var/www/html/Places-App/node_modules/react-native-image-picker/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/ff0391d8b3bd6f94c513c5f1d9b943fe/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/513a0a60af2905728c20213792e27c67/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/513a0a60af2905728c20213792e27c67/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/4d42f609e358da192c2e0d0fba8c3629/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/4d42f609e358da192c2e0d0fba8c3629/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9dc1c28404b6d13cf6849df1c8dacf84/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/9dc1c28404b6d13cf6849df1c8dacf84/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/9a58d77abe6f3333518baf4c1e3b730c/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/9a58d77abe6f3333518baf4c1e3b730c/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2a94b08a7590395b1b921c0f018fb9e0/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/2a94b08a7590395b1b921c0f018fb9e0/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/acfce2903ea027266a5ed44423fb93a5/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/acfce2903ea027266a5ed44423fb93a5/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/85a9458e8b6561b8b005cf95a49d3b30/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/85a9458e8b6561b8b005cf95a49d3b30/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/a2f38ff6d297183980ea994b818f5223/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/a2f38ff6d297183980ea994b818f5223/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b0bf6acebcef831526eca4e0619a7913/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b0bf6acebcef831526eca4e0619a7913/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/0abb3ff720071a479ee0ac210dac5753/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/0abb3ff720071a479ee0ac210dac5753/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/ee1586a848949b6d25b0be6cc5c8bbe0/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/ee1586a848949b6d25b0be6cc5c8bbe0/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/ff0391d8b3bd6f94c513c5f1d9b943fe/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/ff0391d8b3bd6f94c513c5f1d9b943fe/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] /var/www/html/Places-App/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] /var/www/html/Places-App/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-maps-10.0.1.aar/ec0154312e05f295eb3e8c98b6059167/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/8ee786d816ac4f54aac72c688f853ec7/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/8ee786d816ac4f54aac72c688f853ec7/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/8ee786d816ac4f54aac72c688f853ec7/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/8ee786d816ac4f54aac72c688f853ec7/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/70186f05d9d82178a8e68a16fa1f5d8c/AndroidManifest.xml:20:9-121
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/0d787a1809381790546531519303e86b/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /home/bangadam/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/0d787a1809381790546531519303e86b/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/70186f05d9d82178a8e68a16fa1f5d8c/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/bangadam/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/70186f05d9d82178a8e68a16fa1f5d8c/AndroidManifest.xml:20:20-65
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /var/www/html/Places-App/android/app/src/main/AndroidManifest.xml:1:1-34:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

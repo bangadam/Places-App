@@ -1,13 +1,10 @@
 import {
   ADD_PLACE,
-  DELETE_PLACE,
-  SELECT_PLACE,
-  DESELECT_PLACE
+  DELETE_PLACE
 } from "../actions/actionTypes";
 
 const initialState = {
-  places: [],
-  selectedPlace: null
+  places: []
 };
 
 const reducer = (state = initialState, action) => {
@@ -20,8 +17,9 @@ const reducer = (state = initialState, action) => {
           name: action.placeName,
           image: {
             uri:
-              "https://c1.staticflickr.com/5/4096/4744241983_34023bf303_b.jpg"
-          }
+              action.image.uri
+          },
+          location: action.location
         })
       };
     case DELETE_PLACE:
@@ -30,17 +28,6 @@ const reducer = (state = initialState, action) => {
         places: state.places.filter(place => {
           return place.key !== action.placeKey;
         })
-      };
-    case SELECT_PLACE:
-      return {
-        ...state,
-        selectedPlace: state.places.find(place => {
-          return place.key === action.placeKey;
-        })
-      };
-    case DESELECT_PLACE:
-      return {
-        ...state
       };
     default:
       return state;

@@ -2,5 +2,9 @@
     {
         "merged": "/var/www/html/my-first-app/android/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/var/www/html/my-first-app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/var/www/html/Places-App/android/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/var/www/html/Places-App/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

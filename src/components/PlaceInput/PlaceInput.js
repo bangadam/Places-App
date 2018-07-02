@@ -1,30 +1,16 @@
 import React, { Component } from "react";
 import { View, TextInput, Button, StyleSheet } from "react-native";
 
-import DefaultInput from '../UI/DefaultInput/DefaultInput';
+import DefaultInput from "../UI/DefaultInput/DefaultInput";
 
-const PlaceInput = props => (
-    <DefaultInput
-          placeholder="Place Name"
-          value={props.placeName}
-          onChangeText={props.onChangeText}
-    />
-)
+const placeInput = props => (
+  <DefaultInput
+    placeholder="Place Name"
+    value={props.placeName.value}
+    valid={props.placeName.valid}
+    touched={props.placeName.touched}
+    onChangeText={props.onChangeText}
+  />
+);
 
-const styles = StyleSheet.create({
-  inputContainer: {
-    // flex: 1,
-    width: "100%",
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center"
-  },
-  placeInput: {
-    width: "70%"
-  },
-  placeButton: {
-    width: "30%"
-  }
-});
-
-export default PlaceInput;
+export default placeInput;
