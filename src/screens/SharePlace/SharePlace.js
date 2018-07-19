@@ -6,11 +6,12 @@ import {
   Button,
   StyleSheet,
   ScrollView,
-  Image
+  Image,
+  ActivityIndicator
 } from "react-native";
 import { connect } from "react-redux";
 
-import { addPlace } from "../../store/actions/index";
+import { addPlace, startAddPlace } from "../../store/actions/index";
 import PlaceInput from "../../components/PlaceInput/PlaceInput";
 import MainText from "../../components/UI/MainText/MainText";
 import HeadingText from "../../components/UI/HeadingText/HeadingText";
@@ -21,27 +22,6 @@ import validate from "../../utility/validation";
 class SharePlaceScreen extends Component {
   static navigatorStyle = {
     navBarButtonColor: "orange"
-  }
-
-  state = {
-    controls: {
-      placeName: {
-        value: "",
-        valid: false,
-        touched: false,
-        validationRules: {
-          notEmpty: true
-        }
-      },
-      location: {
-        value: null,
-        valid: false
-      },
-      image: {
-        value: null,
-        valid: false
-      }
-    }
   };
 
   constructor(props) {
@@ -50,6 +30,11 @@ class SharePlaceScreen extends Component {
   }
 
   onNavigatorEvent = event => {
+    if (event.type === "ScreenChangedEvent") {
+      if (event.id === "willAppear") {
+        this.props.onStartAddPlace()
+      }
+    }
     if (event.type === "NavBarButtonPress") {
       if (event.id === "sideDrawerToggle") {
         this.props.navigator.toggleDrawer({
@@ -71,18 +56,8 @@ class SharePlaceScreen extends Component {
             touched: true
           }
         }
-      }
+      };
     });
-  };
-
-  placeAddedHandler = () => {
-    if (this.state.controls.placeName.value.trim() !== "") {
-      this.props.onAddPlace(
-        this.state.controls.placeName.value,
-        this.state.controls.location.value,
-        this.state.controls.image.value,
-      );
-    }
   };
 
   locationPickedHandler = location => {
@@ -95,11 +70,11 @@ class SharePlaceScreen extends Component {
             valid: true
           }
         }
-      }
-    })
-  }
+      };
+    });
+  };
 
-  pickedImageHandler = image => {
+  imagePickedHandler = image => {
     this.setState(prevState => {
       return {
         controls: {
@@ -109,34 +84,88 @@ class SharePlaceScreen extends Component {
             valid: true
           }
         }
+      };
+    });
+  };
+
+  placeAddedHandler = () => {
+    this.props.onAddPlace(
+      this.state.controls.placeName.value,
+      this.state.controls.location.value,
+      this.state.controls.image.value
+    );
+    this.reset();
+    this.imagePicker.reset();
+    this.locationPicker.reset();
+  };
+
+  componentWillMount() {
+    this.reset()
+  }
+
+  componentDidUpdate() {
+    if (this.props.placeAdded) {
+      this.props.navigator.switchToTab({tabIndex: 0})
+    }
+  }
+
+  reset = () => {
+    this.setState({
+      controls: {
+        placeName: {
+          value: "",
+          valid: false,
+          touched: false,
+          validationRules: {
+            notEmpty: true
+          }
+        },
+        location: {
+          value: null,
+          valid: false
+        },
+        image: {
+          value: null,
+          valid: false
+        }
       }
     })
   }
 
   render() {
+    let submitButton = (
+      <Button
+        title="Share the Place!"
+        onPress={this.placeAddedHandler}
+        disabled={
+          !this.state.controls.placeName.valid ||
+          !this.state.controls.location.valid ||
+          !this.state.controls.image.valid
+        }
+      />
+    );
+
+    if (this.props.isLoading) {
+      submitButton = <ActivityIndicator />;
+    }
+
     return (
       <ScrollView>
         <View style={styles.container}>
           <MainText>
             <HeadingText>Share a Place with us!</HeadingText>
           </MainText>
-          <PickImage onImagePicked={this.pickedImageHandler}/>
-          <PickLocation onLocationPick={this.locationPickedHandler} />
+          <PickImage onImagePicked={this.imagePickedHandler}
+            ref={ref => (this.imagePicker = ref)}
+          />
+          <PickLocation onLocationPick={this.locationPickedHandler}
+            ref={ref => (this.locationPicker = ref)}
+          />
           <PlaceInput
-            placeName={this.state.controls.placeName}
+            placeData={this.state.controls.placeName}
             onChangeText={this.placeNameChangedHandler}
           />
-          <View style={styles.button}>
-            <Button
-              title="Share the Place!"
-              onPress={this.placeAddedHandler}
-              disabled={
-                !this.state.controls.placeName.valid ||
-                !this.state.controls.location.valid ||
-                !this.state.controls.image.valid
-              }
-            />
-          </View>
+          <View style={styles.button}>{submitButton}</View>
         </View>
       </ScrollView>
     );
@@ -164,12 +193,18 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapDispatchToProps = dispatch => {
+const mapStateToProps = state => {
   return {
-    onAddPlace: (placeName, location, image) => dispatch(
-      addPlace(placeName, location, image)
-    )
+    isLoading: state.ui.isLoading,
+    placeAdded: state.places.placeAdded
   };
 };
 
-export default connect(null, mapDispatchToProps)(SharePlaceScreen);
+const mapDispatchToProps = dispatch => {
+  return {
+    onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image)),
+    onStartAddPlace: () => dispatch(startAddPlace())
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(SharePlaceScreen);
